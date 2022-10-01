@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* NAVBAR STYLING */
+
+nav {
+    background-color: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+}
+
+.navbar--logo {
+    height: 24px;
+    width: 24px;
+}
+
+.navbar--title {
+    font-family: Inter, sans-serif;
+    color: white;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+/* CARD STYLING */
+
+.card {
+    display: flex;
+    align-items: center;
+    font-family: Inter, sans-serif;
+}
+
+.card--image {
+    width: 125px;
+    height: 168px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.card--description {
+    padding-left: 15px;
+    max-width: 400px;
+}
+
+.card--location {
+    letter-spacing: 3px;
+    font-size: 13px;
+    color: #2B283A;
+    padding-left: 3px;
+}
+
+.card--maps-link {
+    font-size: 13px;
+    color: #918E9B;
+    font-style: unset;
+    padding-left: 20px;
+}
+
+.card--title {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.card--date {
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.card--text {
+    font-size: 12px;
+}
+
+/* CARD-LIST STYLING */
+
+.cards-list {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    width: 478px;
+    height: 0px;
+
+    border: 1px solid #F5F5F5;
+}
